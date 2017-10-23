@@ -1,0 +1,14 @@
+Source: gn
+Section: Development
+Priority: optional
+Maintainer: Ryan Gonzalez <rymg19@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Homepage: https://chromium.googlesource.com/chromium/src/tools/gn/
+Vcs-Git: https://chromium.googlesource.com/chromium/src/tools/gn/
+Vcs-Browser: https://chromium.googlesource.com/chromium/src/tools/gn/
+
+Package: gn
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: An unofficial, packaged version of Google's GN build system
