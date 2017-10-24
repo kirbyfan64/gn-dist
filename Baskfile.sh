@@ -77,7 +77,7 @@ task_push() {
   export REPREPRO_BASE_DIR
 
   for release in $RELEASES; do
-    bask_run reprepro -C main includedeb $release debs/*.deb || return
+    bask_run reprepro -C $release includedeb $release debs/*.deb || return
   done
 }
 
